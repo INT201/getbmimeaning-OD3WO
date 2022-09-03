@@ -11,7 +11,7 @@ function getBMIMeaning(weight, height) {
     bmiMeaning = "Underweight";
     return bmiMeaning;
   } else if (getBMIVal >= 18.5 && getBMIVal <= 25) {
-    bmiMeaning = "Normal Weight";
+    bmiMeaning = "Normal weight";
     return bmiMeaning;
   } else {
     bmiMeaning = "Overweight";
